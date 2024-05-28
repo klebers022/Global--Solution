@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E8F3F1
+}
+
+header{
+    
+    background-color: #90B499;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+nav ul{
+    display: flex;
+    background-color: #4D825E;
+    text-align: center;
+    padding: 10px 0;
+    justify-content: space-evenly;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.sec1{
+    background-image: url(../assets/img/praia.jpg);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    
+
+}
+
+.text-img {
+    width: 50%;
+    background-color: #90b4997e;
+    height: 100px;
+    color: #E8F3F1;
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+.text-img2{
+    width: 50%;
+    background-color: #90b4997e;
+    color: #4D825E;
+    height: 100px;
+    color: #E8F3F1;
+    font-size: 30px;
+    margin-top: 150px;
+    text-align: center;
+   
+    
+}
+
+.event{
+    background-color:#4D825E ;
+    width: 200px;
+    font-size: 25px;
+    color: white;
+    padding: 8px ;
+    margin-top: 30px;
+}
+
+.sec3{
+    background-color: #EBFDF7;
+    display: flex;
+    width: 90%;
+    margin: auto; 
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.336);
+    
+}
+
+p{
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 5%;
+    font-weight: 500;
+}
+
+.text{
+    
+    width: 80%;
+}
+.text h2{
+    font-size: 30px;
+    padding: 10px;
+    color: #EC8957;
+    
+}
+
+.text p{
+    font-size: 20px;
+    padding: 10px;
+    
+}
+
+.text img{
+    width: 100%;
+
+}
+
+.selo{
+    text-align: center;
+    width: 20%;
+    
+    border: 1px solid #4D825E;
+}
+
+.selo p{
+    font-size: 30px;
+    color: #EC8957;
+
+}
+
+.selo img{
+ width: 50%;
+}
+
+.Local{
+
+ 
+   background-color:#EC8957 ;
+   width: 200px;
+   text-align: center;
+   color: white;
+   padding: 8px ;
+   margin-top: 30px;
+   margin-left: 83%;
+   border-radius: 50px 0px 75px 50px;
+   padding: 20px;
+   font-size: 20px;
+}
+
+.data{
+    background-color:#808EF2 ;
+    width: 200px;
+    font-size: 25px;
+    color: white;
+    padding: 8px ;
+    margin-top: 30px;
+    margin-left: 5%;
+    border-radius: 0px 50px 50px 75px;
+}
