@@ -10,7 +10,7 @@ header{
     color: white;
     text-align: center;
     padding: 10px 0;
-    background-image: url(../assets/img/pexels-laker-6156390.jpg);
+    background-image: url(../assets/img/oceano.jpg);
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -59,6 +59,24 @@ header button{
 
 }
 
+button:hover{
+    background-color: #003D28;
+    color: #c1ff72;
+    transition: 0.5s;
+
+}
+
+button a:hover{
+    text-decoration: none;
+    color: #c1ff72;
+    transition: 0.5s;
+}
+
+button a{
+    text-decoration: none;
+    color: #003D28;
+
+}
 
   
 
@@ -75,4 +93,109 @@ header button{
     text-align: left;
     color: #ffffff;
     padding: 10px 60px 60px;
+}
+
+.sec1{
+    width: 90%;
+    margin: auto;
+    background-color: #E8F3F1;
+}
+
+.sec1 h2{
+    font-size: 50px;
+    text-align: left;
+    color: #c1ff72;
+    padding: 40px 60px 0 ;
+
+}
+
+.sec1 p{
+    font-size: 25px;
+    text-align: left;
+    color: #000000;
+    line-height: 35px;
+    padding: 10px 60px 60px;
+}
+
+.box5,.box4,.box3, .box2, .box1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+
+}
+
+
+
+.box5 img,.box4 img,.box3 img, .box2 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #0000001f;
+  
+
+   
+}
+
+.box1 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #0000001f;
+}
+
+.sec2{
+    background-color: #D2ED8D;
+;
+}
+
+.sec2 h2{
+    font-size: 50px;
+    text-align: left;
+    color: #003D28;
+    padding: 40px 60px 0 ;
+
+}
+
+.sec2 p{
+    font-size: 25px;
+    text-align: left;
+    color: #000000;
+    line-height: 35px;
+    padding: 10px 60px 60px;
+}
+
+.sec2 img{
+    width: 100%;
+   padding: 20px 60px 60px;
+   border-radius: 10px;
+}
+
+
+footer{
+    background-color: #003D28;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    line-height: 40px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .box5, .box4, .box3, .box2 ,.box1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box5 img, .box4 img, .box3 img, .box2 img, .box1 img {
+        margin-bottom: 20px;
+    }
 }
