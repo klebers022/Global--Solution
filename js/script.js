@@ -12,3 +12,7 @@ function typeWriter() {
 }
 
 typeWriter();
+
+
+// pagina sobre
+
