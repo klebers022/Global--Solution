@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
+
+
 
 header{
     
@@ -34,4 +37,72 @@ nav ul li a{
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+    color: #5E9C8A;
+    
+    
+}
+
+.participantes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+    background-color: #F0F0F0;
+}
+
+.membros{
+    
+    margin: 20px;
+    padding: 20px;
+    background-color: #90B499;
+    border-radius: 10px;
+    text-align: center;
+    filter: drop-shadow(5px 5px 5px #4D825E);
+}
+
+.membros a img{
+    width: 50px;
+    transition: 0.8s all;
+    background-image: none;
+   
+}
+.membros a img:hover{
+    width: 50px;
+   transform: scale(1.2);
+   background-color: white;
+   filter: drop-shadow(5px 5px 5px #ececec5d);
+}
+
+
+.membros P{
+    font-size: 25px;
+    color: white   ;
+    padding: 10px;
+
+}
+
+.membros img{
+    width: 300px;
+    border-radius: 50%;
+    filter: drop-shadow(5px 5px 5px #4D825E);
+    background-image: url(../assets/icon/logo-reciclamar.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f0f0f08a;
+
+}
+
+.membros h2{
+    font-size: 30px;
+    color: #ffffff;
+    padding: 10px;
 }
