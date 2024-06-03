@@ -9,3 +9,4 @@ document.querySelectorAll('.card').forEach(function(card) {
       this.classList.toggle('expanded');
     });
   });
+
