@@ -101,9 +101,9 @@ nav ul li a{
     color: rgb(0, 0, 0);
 }
 
-
-.selos img{
-    width: 150px;
+.card.expanded img{
+    margin: auto;
+    height: 100%;
 }
 
 .estilo{
@@ -112,6 +112,8 @@ nav ul li a{
     margin: auto;
     padding: 10px;
     border-radius: 10px;
+    height: 100%;
+    margin-bottom: 200px;
 }
 
 
@@ -181,6 +183,7 @@ nav ul li a{
 
 .box-details {
     display: flex;
+    flex-wrap: wrap;
    
 }
 
@@ -202,5 +205,15 @@ section{
         margin: auto;
         padding: 10px;
         border-radius: 10px;
+    }
+
+   
+}
+
+@media screen and (max-width: 600px){
+    .card.expanded p{
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        text-align: center;
     }
 }
