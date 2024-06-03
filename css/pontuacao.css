@@ -35,3 +35,81 @@ nav ul li a{
     padding: 10px 20px;
     border-radius: 5px;
 }
+
+.card {
+    min-width: 250px;   
+    height: 254px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -15px 30px #ffffff;
+    margin: auto;
+    text-align: center;
+    transition: all 0.5s ease;
+    margin-top: 30px;
+}
+  
+  
+.card h2{
+    font-size: 30px;
+    color: #4D825E;
+}
+
+.card img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+  .details {
+    margin-top: 20px;
+  }
+
+
+  .card.expanded {
+    margin: auto;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 70%;
+    left: 60%;
+    transform: scale(1.2) translate(-50%, -50%);
+    background-color: #000;
+    box-shadow: none;
+  }
+  
+.card.expanded p{
+    color: rgb(0, 0, 0);
+}
+
+
+.selos img{
+    width: 50px;
+}
+
+.estilo{
+    background-color: beige;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.card.expanded h2{
+    color: #ffff;
+    margin-top: 30px;
+}
+
+.estilo.expanded p{
+    color: #ffffff;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    width: 80%;
+    margin: auto;
+}
