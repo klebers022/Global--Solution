@@ -87,7 +87,7 @@ nav ul li a{
     justify-content: center;
     height: 100%;
     width: 100%;
-    position: fixed;
+    position:absolute;
     z-index: 1;
     top: 70%;
     left: 60%;
