@@ -39,6 +39,10 @@ nav ul li a{
     border-radius: 5px;
 }
 
+nav .menu-lines, nav input{
+    display: none;
+} 
+
 h2{
     text-align: center;
     padding: 20px;
@@ -105,4 +109,112 @@ h2{
     font-size: 30px;
     color: #ffffff;
     padding: 10px;
+}
+
+
+@media screen and (max-width: 620px) {
+    nav{
+        padding: 15px;
+       
+    }
+
+    nav .menu-faketrigger{
+        position: absolute;
+        z-index: 1000;
+        width: 35px;
+        height: 35px;
+        opacity: 0;
+        cursor:pointer;
+        padding: 10px;
+        right: 0; /* Adicionado */
+    }
+
+    nav .menu-lines{
+        display: block;
+        position: absolute;
+        z-index: 999;
+        right: 0; /* Adicionado */
+        padding: 10px;
+    }
+
+nav input{
+    display: block;
+}
+
+nav .menu-lines span{
+    display:block;
+    width: 35px;
+    height: 5px;
+    margin-bottom: 10px;
+    background-color: #4D825E;
+    border-radius: 3px;
+    transition: all ease .2s;
+}
+
+
+nav .menu-faketrigger:checked ~ .menu-lines span{
+    background-color: #4D825E;
+    
+}
+nav .menu-faketrigger:checked ~ .menu-lines span:nth-child(1){
+    transform-origin: 0% 0%;
+    transform: rotate(45deg) scaleX(1.25);
+
+}
+nav .menu-faketrigger:checked ~ .menu-lines span:nth-child(2){
+    opacity: 0;
+
+}
+nav .menu-faketrigger:checked ~ .menu-lines span:nth-child(3){
+    transform-origin: 0% 100%;
+    transform: rotate(-45deg) scaleX(1.25);
+
+}
+
+nav ul{
+    display: block;
+    position: absolute;
+    z-index: 998;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 80px;
+    background-color: #E9E5DA;
+    margin-left: -600px;
+    transition: all ease .2s;
+}
+
+nav .menu-faketrigger:checked ~ ul{
+    margin-left: 0;
+}
+
+nav ul li{
+    padding: 5px;
+}
+
+nav ul li a{    
+    color: #4D825E;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0;
+    transition: all ease .3s;
+}
+
+nav ul li a:hover {
+    color: #888;
+    background-color: #ddd7d738;
+
+}  
+
+header h1{
+    color: #ffffff;
+    margin: auto;
+}
+
+header{
+    background-color: #90B499;
+    height: 100px;
+    display: flex;
+}
 }
