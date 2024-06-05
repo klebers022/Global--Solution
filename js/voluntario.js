@@ -1,18 +1,3 @@
-const imgs = document.getElementById('img');
-const img = document.querySelectorAll('#img img');
-
-let idx = 0;
-function carrosel() {
-    idx++;
-    if (idx > img.length - 1) {
-        idx = 0;
-    }
-    imgs.style.transform = `translateX(${-idx * 100}%)`;
-}
-
-setInterval(carrosel, 2000);
-
-
 window.watsonAssistantChatOptions = {
     integrationID: "f5c2cfc8-ac62-40ad-980d-a6f73af6e948", // The ID of this integration.
     region: "au-syd", // The region your integration is hosted in.

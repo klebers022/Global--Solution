@@ -148,6 +148,8 @@ nav .menu-lines, nav input{
     
 }
 
+
+
 .card2 h3{
     color: #318190;
     font-size: 30px;
@@ -201,6 +203,109 @@ section{
     margin: auto;
 }
 
+
+body {
+   
+    line-height: 1.6;
+    
+    background-color: #f4f4f4;
+}
+.container {
+   
+   
+
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 30px;
+    
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -15px 30px #ffffff;
+    margin-top: 50px;
+}
+.container h1 {
+    color: #2c3e50;
+    font-size: 36px;
+}
+.container h2 {
+    color: #27ae60;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.container p {
+    margin: 15px 0;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+strong {
+    color: #27ae60;
+}
+.container ul {
+    list-style: none;
+    padding: 0;
+}
+.container ul li {
+    margin: 5px 0;
+}
+.container ul li::before {
+    content: "✓";
+    color: #27ae60;
+    margin-right: 10px;
+}
+
+.bola{
+    margin: auto;
+    background-image: url(/assets/img/back.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 45px;
+
+box-shadow:  37px 37px 74px #a9a9a9,
+-37px -37px 74px #f9f9f9;
+
+
+}
+
+.box{
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px;
+    
+}
+
+.container .h2{
+    margin-top: 50px;
+    padding-top: 30px;
+    color: #125597;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+}
+
+.container h3{
+    color: #544EC2;
+}
+
+.laranja{
+    color: #E38657;
+    font-weight: bold;
+}   
+
+.verde{
+    color: #4D825E;
+    font-weight: bold;
+}
+.azul{
+    color: #318190;
+    font-weight: bold;
+}
+
+
+
 @media screen and (min-width: 1100px){
    
     .estilo{
@@ -219,6 +324,12 @@ section{
         color: rgb(0, 0, 0);
         font-size: 20px;
         text-align: center;
+    }
+    .box{
+        width: 100%;
+    }
+    .container h1{
+        font-size: 30px;
     }
 }
 
