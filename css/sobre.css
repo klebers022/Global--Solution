@@ -41,6 +41,8 @@ nav .menu-lines, nav input{
     display: none;
 } 
 
+
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -131,6 +133,9 @@ img {
     width: 100% ;
     height: 100%;
 }
+
+
+
 
 @media (max-width: 600px) {
     .box{

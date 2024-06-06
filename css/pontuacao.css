@@ -41,6 +41,18 @@ nav .menu-lines, nav input{
     display: none;
 } 
 
+footer{
+    background-color: #98B0A8;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    line-height: 40px;
+}
+
+
 .card {
     width: 300px;
     cursor: pointer;
@@ -443,5 +455,9 @@ header{
     background-color: #90B499;
     height: 100px;
     display: flex;
+}
+
+.container{
+    width: 100%;
 }
 }

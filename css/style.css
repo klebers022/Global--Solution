@@ -371,8 +371,9 @@ iframe{
         height: 100%;
     }
 
-    .sec1{
+    .sec1, .sec2, .sec3, .sec4{
         width: 100%;
+        
     }
     
 }
@@ -471,4 +472,6 @@ nav ul li a:hover {
     background-color: #ddd7d738;
 
 }  
+
+
 }
